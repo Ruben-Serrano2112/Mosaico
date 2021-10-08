@@ -1,0 +1,26 @@
+﻿<Window x:Class="Mosaico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mosaico"
+        mc:Ignorable="d"
+        Title="Mosaico" Icon="assets/valve.ico"  Height="450" Width="800">
+    <DockPanel LastChildFill="True" >
+        <TextBlock DockPanel.Dock="left" Background="#FF9700FF" Width="100"></TextBlock>
+        <TextBlock DockPanel.Dock="top" Background="#FF9700FF" Height="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Bottom" Background="Green" Height="100"></TextBlock>
+        <TextBlock DockPanel.Dock="Right" Background="Green" Width="100"></TextBlock>
+        <DockPanel LastChildFill="True" DockPanel.Dock="Bottom">
+            <TextBlock DockPanel.Dock="left" Background="#FFDCFF00" Width="100"></TextBlock>
+            <TextBlock DockPanel.Dock="top" Background="#FF00AEFF" Height="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Bottom" Background="#FFDCFF00" Height="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Right" Background="#FF00AEFF" Width="100"></TextBlock>
+            <DockPanel>
+                <TextBlock Background="Black"></TextBlock>
+            </DockPanel>
+        </DockPanel>
+
+        
+    </DockPanel>
+</Window>
