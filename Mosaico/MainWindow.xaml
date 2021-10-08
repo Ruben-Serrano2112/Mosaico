@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mosaico"
         mc:Ignorable="d"
-        Title="Mosaico" Icon="assets/valve.ico"  Height="450" Width="800">
+        Title="Mosaico" Icon="assets/valve.ico"  Height="500" Width="500" MinHeight="500" MinWidth="500">
     <DockPanel LastChildFill="True" >
         <TextBlock DockPanel.Dock="left" Background="#FF9700FF" Width="100"></TextBlock>
         <TextBlock DockPanel.Dock="top" Background="#FF9700FF" Height="100"></TextBlock>
